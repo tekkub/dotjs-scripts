@@ -4,6 +4,36 @@ $(function() {
     $(".a-b-Gf-la-A").hide()
   }
 
-  $("body").bind("DOMNodeInserted", function(){hide_sparks()})
+  var inrename = false
+  var new_names = {
+    "Jerome Leclanche": "Adys",
+    "Chris Heald": "Antiarc",
+    "Jim Whitehead II": "Cladhaire",
+    "Bryan McLemore": "Kaelten",
+    "André Eriksson": "Cide",
+    "Nicolas Noble": "|Pixel|",
+  }
+
+  function rename_people(links) {
+    console.log("Checking for renames", inrename, links)
+
+    if (inrename) return;
+
+    inrename = true
+
+    links.each(function(i) {
+      var realname = $(this).text()
+      var alias = new_names[realname]
+      if (alias) $(this).text(alias);
+    })
+
+    inrename = false
+  }
+
+  $("body").bind("DOMNodeInserted", function() {
+    rename_people($(this).find("a"))
+    hide_sparks()
+  })
+  rename_people($("a"))
   hide_sparks()
 })
