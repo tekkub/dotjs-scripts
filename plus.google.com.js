@@ -51,7 +51,11 @@ $(function() {
   $("body").bind("DOMNodeInserted", function() {
     rename_people($(this).find("a"))
     hide_sparks()
+    $("span.a-b-f-i-aGdrWb:contains('Public')").parents("div.a-f-i").addClass("tek-public")
+    $("span.a-b-f-i-aGdrWb:contains('Limited')").parents("div.a-f-i").addClass("tek-limited")
   })
   rename_people($("a"))
   hide_sparks()
+
+  $("body").append("<style> .tek-public { background: #f6fff6; } .tek-limited { background: #fff6f6; } </style>")
 })
