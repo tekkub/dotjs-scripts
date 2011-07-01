@@ -23,6 +23,13 @@ $(function() {
     'P.C. Johnston': "pcj",
     'Matt Converse': "Unkle",
     'Matthew Orlando': "Cogwheel",
+    'David Lynch': "Kemayo",
+    'James "Denny" Callahan III': "Torhal",
+    'Jeremy Neumann': "Arrowmaster",
+    'James Adam': "Lazyatom",
+    'Matt Casey': "Vataro",
+    'Amber Yust': "Aiiane",
+    'Michael Dennis': "Loupyn",
   }
 
   function rename_people(links) {
