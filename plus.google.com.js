@@ -12,10 +12,20 @@ $(function() {
     "Bryan McLemore": "Kaelten",
     "André Eriksson": "Cide",
     "Nicolas Noble": "|Pixel|",
+    "Kevin Ballard": "Eridius",
+    "Martin Brabham": "Optedoblivion",
+    "Tom Finn": "Dolby",
+    "Pete Lawler": "Bleeter",
+    "James Twyford": "KD3",
+    'Karen "Cairenn" Hobson': "Cairenn",
+    'Ryan Lakanen': "Seerah",
+    'P.C. Johnston': "pcj",
+    'Matt Converse': "Unkle",
+    'Matthew Orlando': "Cogwheel",
   }
 
   function rename_people(links) {
-    console.log("Checking for renames", inrename, links)
+    // console.log("Checking for renames", inrename, links)
 
     if (inrename) return;
 
