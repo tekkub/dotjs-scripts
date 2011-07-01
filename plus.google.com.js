@@ -2,6 +2,7 @@
 $(function() {
   function hide_sparks() {
     $(".a-b-Gf-la-A").hide()
+    $("a[href='/welcome'], a[href='/u/0/welcome']").hide().next().hide()
   }
 
   var inrename = false
