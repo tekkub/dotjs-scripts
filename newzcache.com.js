@@ -1,42 +1,45 @@
 
-var table = $("<table>").addClass("tektable")
-$(".download:first").before(table)
+if (document.location == "http://newzcache.com/season_passes") {
 
-table.before("<style> .tektable {font-size: 16px; border-collapse: collapse;} .tektable tr:hover td {background: #cdc;} .tektable td {padding: 0 5px;} </style>")
+  var table = $("<table>").addClass("tektable")
+  $(".download:first").before(table)
 
-var rows = {}
-var names = []
-$(".download").each(function(i) {
-  var dis = $(this)
+  table.before("<style> .tektable {font-size: 16px; border-collapse: collapse;} .tektable tr:hover td {background: #cdc;} .tektable td {padding: 0 5px;} </style>")
 
-  var row = $("<tr>")
-  var link = dis.find("a:first")
-  link.text(dis.find("h3").text())
+  var rows = {}
+  var names = []
+  $(".download").each(function(i) {
+    var dis = $(this)
 
-  row.append(
-    $("<td>").append(link)
-  )
-  row.append(
-    $("<td>").text(dis.find("h6").text())
-  )
-  row.append(
-    $("<td>").text(dis.find("h5").text())
-  )
-  row.append(
-    $("<td>").append(dis.find(".settings"))
-  )
-  row.append(
-    $("<td>").append(dis.find(".remove"))
-  )
+    var row = $("<tr>")
+    var link = dis.find("a:first")
+    link.text(dis.find("h3").text())
 
-	var name = dis.find("h3").text() + " " + dis.find("h6").text()
-	rows[name] = row
-	names.push(name)
+    row.append(
+      $("<td>").append(link)
+    )
+    row.append(
+      $("<td>").text(dis.find("h6").text())
+    )
+    row.append(
+      $("<td>").text(dis.find("h5").text())
+    )
+    row.append(
+      $("<td>").append(dis.find(".settings"))
+    )
+    row.append(
+      $("<td>").append(dis.find(".remove"))
+    )
 
-	dis.remove()
-})
+  	var name = dis.find("h3").text() + " " + dis.find("h6").text()
+  	rows[name] = row
+  	names.push(name)
 
-names.sort()
-$.each(names, function(i,v) {
-  table.append(rows[v])
-})
+  	dis.remove()
+  })
+
+  names.sort()
+  $.each(names, function(i,v) {
+    table.append(rows[v])
+  })
+}
