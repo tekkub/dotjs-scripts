@@ -30,6 +30,8 @@ $(function() {
     'Matt Casey': "Vataro",
     'Amber Yust': "Aiiane",
     'Michael Dennis': "Loupyn",
+    'Sin Huan Chan': "Xinhuan",
+    'Mark Breitenbach': "Zhinjio",
   }
 
   function rename_people(links) {
