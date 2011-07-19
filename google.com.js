@@ -1,3 +1,3 @@
 
 // Hide the +1 Button
-.esw { display:none!important; }
+$("body").append("<style> .esw { display: none !important; } </style>")

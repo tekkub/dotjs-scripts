@@ -19,6 +19,7 @@ $(function() {
     "Pete Lawler": "Bleeter",
     "James Twyford": "KD3",
     'Karen "Cairenn" Hobson': "Cairenn",
+    'Cairenn MMOUI': "Cairenn",
     'Ryan Lakanen': "Seerah",
     'P.C. Johnston': "pcj",
     'Matt Converse': "Unkle",
@@ -32,6 +33,20 @@ $(function() {
     'Michael Dennis': "Loupyn",
     'Sin Huan Chan': "Xinhuan",
     'Mark Breitenbach': "Zhinjio",
+    'Jon Akhtar': "Sylvanaar",
+    'Trond A Ekseth': "Haste",
+    'George Pribul': "Kirkburn",
+    'Tim Connor': "Timocratic",
+    'Shane Sveller': "Ithato",
+    'Shane S.': "Ithato",
+    'Steve L.': "Hasteur",
+    'Keenan Maistry (Neon Grizzly) (BearStation)': "Neon Grizzly",
+    'Will Duncan': "Imagtic",
+    'Hone Melgren': "bluspacecow",
+    'David Burrow': "Hirsute",
+    'Dave Zachritz': "Lazerdave",
+    'Ben Lai': "Wobin",
+    'Andreas Legrum': "Elkano",
   }
 
   function rename_people(links) {
@@ -60,4 +75,5 @@ $(function() {
   hide_sparks()
 
   $("body").append("<style> .tek-public { background: #f6fff6; } .tek-limited { background: #fff6f6; } </style>")
+
 })
