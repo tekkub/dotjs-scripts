@@ -40,13 +40,14 @@ $(function() {
     'Shane Sveller': "Ithato",
     'Shane S.': "Ithato",
     'Steve L.': "Hasteur",
-    'Keenan Maistry (Neon Grizzly) (BearStation)': "Neon Grizzly",
+    'Keenan Maistry (BearStation)': "Neon Grizzly",
     'Will Duncan': "Imagtic",
     'Hone Melgren': "bluspacecow",
     'David Burrow': "Hirsute",
     'Dave Zachritz': "Lazerdave",
     'Ben Lai': "Wobin",
     'Andreas Legrum': "Elkano",
+    'Brandon Jernigan': "Whatisboom",
   }
 
   function rename_people(links) {
