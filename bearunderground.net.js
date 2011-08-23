@@ -1,0 +1,1 @@
+$("#nav li:eq(1) a").attr("href", "http://bearunderground.net/profiles/region/")
