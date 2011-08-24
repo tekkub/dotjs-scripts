@@ -48,6 +48,7 @@ $(function() {
     'Ben Lai': "Wobin",
     'Andreas Legrum': "Elkano",
     'Brandon Jernigan': "Whatisboom",
+    'Keith Causin': "FeistTheRogue",
   }
 
   function rename_people(links) {
