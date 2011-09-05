@@ -49,6 +49,7 @@ $(function() {
     'Andreas Legrum': "Elkano",
     'Brandon Jernigan': "Whatisboom",
     'Keith Causin': "FeistTheRogue",
+    'Korey Ray': "Khorax",
   }
 
   function rename_people(links) {
