@@ -40,7 +40,7 @@ $(function() {
     'Shane Sveller': "Ithato",
     'Shane S.': "Ithato",
     'Steve L.': "Hasteur",
-    'Keenan Maistry (BearStation)': "Neon Grizzly",
+    'Keenan Maistry': "Neon Grizzly",
     'Will Duncan': "Imagtic",
     'Hone Melgren': "bluspacecow",
     'David Burrow': "Hirsute",
