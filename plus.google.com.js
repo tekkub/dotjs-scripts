@@ -50,6 +50,7 @@ $(function() {
     'Brandon Jernigan': "Whatisboom",
     'Keith Causin': "FeistTheRogue",
     'Korey Ray': "Khorax",
+    'David James': "BearAZ",
   }
 
   function rename_people(links) {
