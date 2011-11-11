@@ -79,5 +79,6 @@ $(function() {
   hide_sparks()
 
   $("body").append("<style> .tek-public { background: #f6fff6; } .tek-limited { background: #fff6f6; } </style>")
+  $("body").append("<style> .zhMuaf.Tp6dle: display: none;</style>"
 
 })
