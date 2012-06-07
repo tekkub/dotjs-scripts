@@ -10,9 +10,12 @@ function fixelement(e) {
   }
 }
 
-$(function (){
+$(function() {
   // console.log("Checking oncontextmenu handlers")
   fixelement(document);
   var all = document.getElementsByTagName('*');
   for (var i = 0; i < all.length; i++) {fixelement(all[i])}
+
+  // $("*").css('-webkit-text-size-adjust', '')
+  $("body").append("<style> * { -webkit-text-size-adjust: auto !important; } </style>")
 })
